@@ -1,4 +1,3 @@
-# [Confluence Page](https://shopadmin.atlassian.net/wiki/x/c4F50g)
 # Before running script for Project Crobat
 1.) Run `pip install -r requirements.txt` to get all the required python packages\
 2.) Create your own `api_secrets.py` file to access Google and OneMap API using `api_secrets_template.py`\
