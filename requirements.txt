@@ -1,0 +1,7 @@
+requests
+pandas
+numpy
+geographiclib
+geopy
+openpyxl
+geopandas
