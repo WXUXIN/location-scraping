@@ -1,4 +1,4 @@
-# Before running script for Project Crobat
+# Setup
 1.) Run `pip install -r requirements.txt` to get all the required python packages\
 2.) Create your own `api_secrets.py` file to access Google and OneMap API using `api_secrets_template.py`\
 3.) Check `key_parameters.py` for:\
