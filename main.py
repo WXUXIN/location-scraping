@@ -80,10 +80,6 @@ area_search = AreaSearch(
     google_map_api_key, location_data_by_type['AreaSearch'])
 point_search = PointSearch(
     google_map_api_key, location_data_by_type['PointSearch'])
-# We need to use Open-close principle to add new location types in the future
-# We should create a new class for each location type and inherit from the base class
-# I should call this base class LocationType
-
 
 area_search.load_api_payloads('text_search', region=key_parameters.TEXT_SEARCH_REGION,
                               radius=key_parameters.TEXT_SEARCH_RADIUS, location=key_parameters.TEXT_SEARCH_LOCATION)
